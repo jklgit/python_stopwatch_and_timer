@@ -4,7 +4,7 @@ This is a little project, where I try to figure out how datatypes behave in Pyth
 
 ## stopwatch.py
 
-This is a stop watch, which runs in your console. Once executed, you can type `Enter` to hold the times. To reset the timer you can type in `0` and then `Enter`. E.g.:
+This is a stop watch, which runs in console. Once executed, type `Enter` to hold the time. Type `0` and then `Enter` to reset the timer. E.g.:
 
 ```
 15:13:12.806  |  0 s  |  0 s
@@ -18,7 +18,7 @@ This is a stop watch, which runs in your console. Once executed, you can type `E
 15:13:31.299  |  2.238 s  |  2.238 s
 15:13:33.003  |  3.942 s  |  1.704 s
 ```
-The first column is the OS time in 24 hour format. The second column displays the time since last reset. The third column display the time past since last stop.
+The first column is the OS time in 24 hour format. The second column displays the time since last reset. The third column displays the time past since last stop.
 
 ## timer.py
 
@@ -33,7 +33,7 @@ How many seconds (default: 10 m 0 s)? 5h 15m 120s
 5 h 16 m 56 s
 ...
 ```
-You can either type in seconds or a time in hms-format. For example following inputs are allowed:
+The input can be given in seconds or a time in hms-format. For example, following inputs are allowed:
 
 * `13`, ` 13   s ` or `13 secs`
 * `1e10 hours`
