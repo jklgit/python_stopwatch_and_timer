@@ -2,8 +2,7 @@ import time
 import winsound
 import threading
 import datetime
-from sec2hms import sec2hms
-from hms2sec import hms2sec
+from hms import sec2hms, hms2sec
 
 
 class PlayMusicThread(threading.Thread):

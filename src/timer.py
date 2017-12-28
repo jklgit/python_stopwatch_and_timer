@@ -1,7 +1,6 @@
 import time
 import winsound
-from sec2hms import sec2hms
-from hms2sec import hms2sec
+from hms import hms2sec, sec2hms
 
 secs = 10*60
 

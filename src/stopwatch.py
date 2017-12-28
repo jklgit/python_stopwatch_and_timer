@@ -1,5 +1,5 @@
 import datetime
-from sec2hms import sec2hms
+from hms import sec2hms
 
 a = ''
 t = datetime.datetime.now()
