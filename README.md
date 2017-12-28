@@ -38,6 +38,7 @@ The input can be given in seconds or a time in hms-format. For example, followin
 * `13`, ` 13   s ` or `13 secs`
 * `1e10 hours`
 * `1 kyear` (equals to 1000 years)
+* Any combination of above, but only in order of decreasing unites. For example: `1 year 2 months 3 days 4 hours 5 minutes 6 seconds` is an allowed input.
 
 ## timer_with_repeat.py
 
